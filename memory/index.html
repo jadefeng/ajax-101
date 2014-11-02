@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Memory Game</title>
+	<link rel="stylesheet" type="text/css" href="css/memory.css">
+	<script type="text/javascript" src="js/jquery.js"></script>		
+	<script type="text/javascript" src="js/handlebars.js"></script>
+	<script type="text/javascript" src="js/underscore.js"></script>
+	<script type="text/javascript" src="js/game.js"></script>
+</head>
+<body>
+
+<div class="message"></div>
+
+	<script type="template/handlebars" id="cardTemplate">
+		<div class="card-container">
+			<div class="flipper">
+				<div class="front">
+					<!-- front content -->
+				</div>
+				<div class="back">
+					<div class="number">
+					<!-- back content -->
+						{{ number }}
+					</div>
+				</div>
+			</div>
+		</div>
+	</script>
+
+</body>
+</html>

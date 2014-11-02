@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Handlebars Demo</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/handlebars.js"></script>
+	<script type="text/javascript" src="js/demo.js"></script>
+</head>
+<body>
+<ul id="bros"> </ul>
+
+	<script type="template/handlebars" id="brotherTemplate"> <!-- // using script tags in here but pretend the type is something serious. just make sure it doesn't think that it is text/javascript! -->
+		<li class="marx">
+			{{ name }} plays <em> {{instrument}} </em>. <!-- // Immediately turns interpolation into javascript -->
+		</li>
+	</script>
+</body>
+</html>
